@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'PONKE TON',
             description: 'Присоединяйтесь к дропу от проекта Ponke TON и получайте 700.000 $PONKE + 3 Ponke TON NFT (4000$)!',
             detailDescription: 'Detailed description of PONKE TON.',
-            icon: 'images/ponke.jpg', // Place the correct path to the bot icon
+            icon: 'https://ahhyired.github.io/easycryptobot/images/ponke.jpg', // Place the correct path to the bot icon
             link: 'https://t.me/PONKETONBOT'
         },
         // Add more bot objects here
