@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const botElement = document.createElement('div');
         botElement.classList.add('bot');
         botElement.innerHTML = `
-            <img src="${bot.icon}" alt="${bot.name}">
+            <img src="${bot.icon}" alt="${bot.name}" onerror="this.onerror=null; this.src='fallback-image-url.jpg';">
             <h3>${bot.name}</h3>
             <p>${bot.description}</p>
         `;
