@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'Присоединяйтесь к дропу от проекта Ponke TON и получайте 700.000 $PONKE + 3 Ponke TON NFT (~4000$)!',
             detailDescription: 'Detailed description of PONKE TON.',
             icon: 'images/ponke.jpg',
-            link: 'https://t.me/PONKETONBO'
+            link: 'https://t.me/PONKETONBOT'
         },
         // Add more bot objects here
     ];
