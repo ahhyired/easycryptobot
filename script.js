@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const bots = [
         {
             name: 'PONKE TON',
-            description: 'Присоединяйтесь к дропу от проекта Ponke TON и получайте 700.000 $PONKE + 3 Ponke TON NFT (4000$)!',
+            description: 'Присоединяйтесь к дропу от проекта Ponke TON и получайте 700.000 $PONKE + 3 Ponke TON NFT (~4000$)!',
             detailDescription: 'Detailed description of PONKE TON.',
             icon: 'images/ponke.jpg',
             link: 'https://t.me/PONKETONBO'
