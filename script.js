@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
 
         botElement.addEventListener('click', () => {
-            window.location.href = bot.link;
+            window.open(bot.link, '_blank');
         });
 
         botsList.appendChild(botElement);
