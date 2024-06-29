@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const bots = [
         {
-            name: 'PONKE TON',
+            name: 'Catizen',
             description: 'Присоединяйтесь к дропу от проекта Catizen!',
             detailDescription: 'Detailed description of Catizen.',
             icon: 'images/images/IMG_20240629_221017_495.jpg',
-            link: 'https://ahhyired.github.io/easycryptobot/image'
+            link: 'https://ahhyired.github.io/easycryptobot/citizen'
         },
         {
             name: 'PONKE TON',
