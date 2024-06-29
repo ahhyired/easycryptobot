@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Catizen',
             description: 'Присоединяйтесь к дропу от проекта Catizen!',
             detailDescription: 'Detailed description of Catizen.',
-            icon: 'images/images/IMG_20240629_221017_495.jpg',
+            icon: 'images/IMG_20240629_221017_495.jpg',
             link: 'https://ahhyired.github.io/easycryptobot/citizen'
         },
         {
