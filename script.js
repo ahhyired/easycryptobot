@@ -2,6 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const bots = [
         {
             name: 'PONKE TON',
+            description: 'Присоединяйтесь к дропу от проекта Catizen!',
+            detailDescription: 'Detailed description of Catizen.',
+            icon: 'images/images/IMG_20240629_221017_495.jpg',
+            link: 'https://ahhyired.github.io/easycryptobot/image'
+        },
+        {
+            name: 'PONKE TON',
             description: 'Присоединяйтесь к дропу от проекта Ponke TON и получайте 700.000 $PONKE + 3 Ponke TON NFT (~4000$)!',
             detailDescription: 'Detailed description of PONKE TON.',
             icon: 'images/ponke.jpg',
