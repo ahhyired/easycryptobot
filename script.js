@@ -1,56 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ponke Ton</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #6191DB;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: white;
-        }
-        p {
-            font-size: 1.2em;
-            text-align: center;
-            max-width: 600px;
-            margin-bottom: 40px;
-			      color: #f3f6f4;
-        }
-        .button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1em;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <img src="images/ponke.jpg" alt="Ponke Ton">
-    <h1>Ponke Ton</h1>
-    <p>A very detailed information about ponke ton.</p>
-    <a href="https://t.me/ponketon_bot" class="button">Launch</a>
-</body>
-</html>
+document.addEventListener('DOMContentLoaded', function() {
+    const bots = [
+        {
+            name: 'Catizen',
+            description: 'Присоединяйтесь к дропу от проекта Catizen!',
+            detailDescription: 'Detailed description of Catizen.',
+            icon: 'images/catizen.jpg',
+            link: 'citizen.html'
+        },
+        {
+            name: 'PONKE TON',
+            description: 'Присоединяйтесь к дропу от проекта Ponke TON и получайте 700.000 $PONKE + 3 Ponke TON NFT (~4000$)!',
+            detailDescription: 'Detailed description of PONKE TON.',
+            icon: 'images/ponke.jpg',
+            link: 'ponke.html'
+        },
+        // Add more bot objects here
+    ];
+
+    const botsList = document.querySelector('.bots-list');
+
+    bots.forEach(bot => {
+        const botElement = document.createElement('div');
+        botElement.classList.add('bot');
+        botElement.innerHTML = `
+            <img src="${bot.icon}" alt="${bot.name}" onerror="this.onerror=null; this.src='fallback-image-url.jpg';">
+            <h3>${bot.name}</h3>
+            <p>${bot.description}</p>
+        `;
+
+        botElement.addEventListener('click', () => {
+            window.open(bot.link, '_self');
+        });
+
+        botsList.appendChild(botElement);
+    });
+});
